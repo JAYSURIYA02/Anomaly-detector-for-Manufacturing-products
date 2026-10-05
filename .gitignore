@@ -1,0 +1,212 @@
+# =========================
+# DATASETS
+# =========================
+
+# MVTec AD dataset
+data/
+Dataset/
+datasets/
+mvtec/
+mvtec_ad/
+MVTec-AD/
+mvtec_ad_evaluation/
+# Any downloaded/extracted datasets
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+
+# =========================
+# PYTHON
+# =========================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda environments
+conda-env/
+.conda/
+
+
+# =========================
+# JUPYTER NOTEBOOKS
+# =========================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.ipynb_checkpoints
+
+
+# =========================
+# PYTORCH / MODEL FILES
+# =========================
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Saved models
+models/
+checkpoints/
+weights/
+
+
+# =========================
+# EXPERIMENT OUTPUTS
+# =========================
+
+# Training outputs
+outputs/
+results/
+runs/
+logs/
+
+# TensorBoard
+.tensorboard/
+tensorboard/
+
+# Generated anomaly maps
+anomaly_maps/
+predictions/
+reconstructions/
+
+# Evaluation outputs
+evaluation/
+metrics/
+
+
+# =========================
+# GENERATED IMAGES
+# =========================
+
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.webp
+
+# If you have source images that MUST be tracked,
+# remove the image extensions above.
+
+
+# =========================
+# PYTHON / ML CACHE
+# =========================
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# =========================
+# IDE / EDITOR
+# =========================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+
+# =========================
+# OS FILES
+# =========================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+
+# =========================
+# ENVIRONMENT / SECRETS
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+
+
+# =========================
+# LOGS
+# =========================
+
+*.log
+
+
+# =========================
+# TEMPORARY FILES
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Python profiling
+*.prof
+
+
+# =========================
+# LOCAL CONFIG
+# =========================
+
+config.local.*
+settings.local.*
